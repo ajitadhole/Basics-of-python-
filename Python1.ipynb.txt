@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Python1.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4LrYyUH-O9qE",
+        "outputId": "a3367624-3e78-4f90-8b93-9e2e5b732285"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name= Ajita\n",
+            "Number= 3\n",
+            "Int= 3\n",
+            "Addition= 15\n",
+            "Subtraction= 5\n",
+            "Multiplication= 50\n",
+            "Division= 2.0\n",
+            "Power= 100000\n",
+            "Modulus= 0\n",
+            "Floor Division= 2\n",
+            "sqrt= 3.142857142857143\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=\"Ajita\"\n",
+        "print(\"Name=\",a)\n",
+        "b=3\n",
+        "print(\"Number=\",b)\n",
+        "c=\"3\"\n",
+        "print(\"Int=\",c)\n",
+        "#3 is number\n",
+        "#\"3\" is a string\n",
+        "\n",
+        "S=22/7\n",
+        "S\n",
+        "\n",
+        "x,y=10,5\n",
+        "print(\"Addition=\",x+y)\n",
+        "print(\"Subtraction=\",x-y)\n",
+        "print(\"Multiplication=\",x*y)\n",
+        "print(\"Division=\",x/y)\n",
+        "print(\"Power=\",x**y)\n",
+        "print(\"Modulus=\",x%y)\n",
+        "print(\"Floor Division=\",x//y)\n",
+        "\n",
+        "print(\"sqrt=\",S)"
+      ]
+    }
+  ]
+}
